@@ -18,4 +18,7 @@ $(document).ready(function(){
 		$("#pics").slideToggle("slow"),
 		$("#instructions").css("padding-top", "1em");
 	});
+	$("ol > li").hover(function(){
+		$(this).toggleClass("hover");
+	});
 });

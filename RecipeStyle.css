@@ -94,6 +94,10 @@ ol {
 
 }
 
+.hover {
+	color: #FF3399;
+}
+
 #cookHead {
 	clear: left;
 }
